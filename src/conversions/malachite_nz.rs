@@ -1,5 +1,5 @@
 #![cfg(feature = "malachite-nz")]
-//!  Conversions to and from [malachite](https://docs.rs/malachite)’s [`Integer`] and [`Natural`] types.
+//!  Conversions to and from [malachite-nz](https://docs.rs/malachite-nz)’s [`Integer`] and [`Natural`] types.
 //!
 //! This is useful for converting Python integers when they may not fit in Rust's built-in integer types.
 //!
@@ -9,12 +9,12 @@
 //!
 //! ```toml
 //! [dependencies]
-//! malachite = "*"
-#![doc = concat!("pyo3 = { version = \"", env!("CARGO_PKG_VERSION"),  "\", features = [\"malachite\"] }")]
+//! malachite-nz = "*"
+#![doc = concat!("pyo3 = { version = \"", env!("CARGO_PKG_VERSION"),  "\", features = [\"malachite-nz\"] }")]
 //! ```
 //!
-//! Note that you must use compatible versions of malachite and PyO3.
-//! The required malachite version may vary based on the version of PyO3.
+//! Note that you must use compatible versions of malachite-nz and PyO3.
+//! The required malachite-nz version may vary based on the version of PyO3.
 //!
 //! ## Examples
 //!
@@ -54,7 +54,7 @@ use crate::{
 use malachite_nz::{integer::Integer, natural::Natural, platform::Limb};
 
 // #[cfg(not(Py_LIMITED_API))]
-// use malachite::;
+// TODO
 
 // for identical functionality between Integer and Natural
 macro_rules! bigint_conversion {

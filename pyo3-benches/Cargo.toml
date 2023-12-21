@@ -13,6 +13,7 @@ pyo3 = { path = "../", features = ["auto-initialize", "full"] }
 codspeed-criterion-compat = "2.3"
 criterion = "0.5.1"
 num-bigint = "0.4.3"
+malachite-nz = "0.4.4"
 rust_decimal = { version = "1.0.0", default-features = false }
 
 [[bench]]

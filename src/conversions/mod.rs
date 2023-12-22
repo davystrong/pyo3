@@ -8,6 +8,7 @@ pub mod hashbrown;
 pub mod indexmap;
 pub mod num_bigint;
 pub mod num_complex;
+pub mod rug;
 pub mod rust_decimal;
 pub mod serde;
 pub mod smallvec;

@@ -1,5 +1,7 @@
 # PyO3
 
+## NOTE: This adds a rug feature to PyO3. I think it's mostly working. However, after implementing it I realised that rug is licensed under some form of GPL licence, meaning that any binary compiled using the rug package becomes infected with it, rendering it useless. I am publishing this here if anyone wants it.
+
 [![actions status](https://img.shields.io/github/actions/workflow/status/PyO3/pyo3/ci.yml?branch=main&logo=github&style=)](https://github.com/PyO3/pyo3/actions)
 [![benchmark](https://img.shields.io/badge/benchmark-✓-Green?logo=github)](https://pyo3.rs/dev/bench/)
 [![codecov](https://img.shields.io/codecov/c/gh/PyO3/pyo3?logo=codecov)](https://codecov.io/gh/PyO3/pyo3)
